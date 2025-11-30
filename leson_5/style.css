@@ -1,0 +1,109 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #064d6e; /* Цвет фона веб-страницы */
+    color: #09e069; /* Цвет основного текста */ 
+}
+h1 {
+    color: #ff220a; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    background-color: #ff09fb;
+}
+h2 {
+    color: #00f7ff; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: 'Courier New', Courier, monospace; /* Семейство шрифтов */
+    background-color: #fa00faed;
+}
+ul {
+    background-color: #f007fd; /* Цвет фона списка */
+    padding: 10px; /* Поля вокруг списка */
+    border-radius: 5px; /* Скругление углов */
+    background-color: #00fa7d;
+}
+li {
+    color: #1f07ff; /* Цвет текста элементов списка */
+    font-size: 14px; /* Размер шрифта в пунктах */
+    font-family: 'Times New Roman', Times, serif; /* Семейство шрифтов */
+}
+a {
+    color: #ffea00; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+ul:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    letter-spacing: 1px; /* Межбуквенный интервал при наведении */
+    color: #ff0000; /* color underline */ 
+}
+p {
+    margin: 15px 0; /* Поля сверху и снизу абзаца */
+    line-height: 1.6; /* Межстрочный интервал */
+}
+blockquote {
+    border-left: 4px solid #ff0000; /* Левая граница для цитат */
+    padding-left: 10px; /* Отступ слева внутри цитаты */
+    color: #d1bc05; /* Цвет текста цитаты */
+    font-style: italic; /* Курсив для цитаты */
+    background-color: #a2ff00; /* Фоновый цвет для цитаты */
+
+}
+code {
+    font-family: 'Courier New', Courier, monospace; /* Шрифт для кода */
+    background-color: #f4f4f4; /* Фоновый цвет для кода */
+    padding: 2px 4px; /* Поля вокруг кода */
+    border-radius: 3px; /* Скругление углов */
+    color: #d14; /* Цвет текста кода */
+    font-size: 13px; /* Размер шрифта для кода */
+}
+img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    border: 2px solid #000; /* Черная рамка вокруг изображения */
+    border-radius: 8px; /* Скругление углов изображения */
+}
+nav {
+    background-color: #333; /* Фоновый цвет навигационной панели */
+    padding: 10px; /* Поля вокруг навигационной панели */
+}
+nav a {
+    color: #fff; /* Цвет ссылок в навигационной панели */
+    margin: 0 10px; /* Поля между ссылками */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    
+}
+
+
+nav a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+    color: #ff0; /* Цвет ссылок при наведении */
+}
+footer {
+    background-color: #222; /* Фоновый цвет подвала */
+    color: #ccc; /* Цвет текста в подвале */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 10px; /* Поля вокруг текста в подвале */
+    margin-top: 20px; /* Отступ сверху от основного контента */
+}
+button {
+    background-color: #008cba; /* Фоновый цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    padding: 10px 20px; /* Поля внутри кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Скругление углов кнопки */
+    cursor: pointer; /* Курсор при наведении */
+}
+h3 {
+    color: #00f7ff; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: 'Courier New', Courier, monospace; /* Семейство шрифтов */
+    animation: color-change 1s infinite;
+
+}
+
+@keyframes color-change {
+  0%   { color: rgb(206, 209, 19); }
+  50%  { color: rgb(0, 0, 0); }
+  100% { color: rgb(206, 209, 19); }
+
+}
