@@ -1,0 +1,19 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return '<h1>Hello, World!</h1>'
+
+
+@app.route("/2")
+def home():
+    return "<h1>Главная страница</h1>"
+
+
+@app.route("/secret")
+def secret():
+    return "<h1>Ты нашёл тайную страницу!</h1>"
+
+app.run(debug=True)
